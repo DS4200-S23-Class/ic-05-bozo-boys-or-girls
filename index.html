@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>ic-05</title>
+  </head>
 
-<head>
-    <meta charset=utf-8/>
-</head>
+  <body>
+    <h1>Intro to Javascript</h1>
+    <button onclick="incrementCounter()">Click me</button>
+    <div class="button_stuff">
+      <!-- prettier-ignore -->
+      <p>Number of times button clicked: </p>
+      <p id="total__count">0</p>
+    </div>
 
-
-<body>
-
-
-</body>
-
+    <div id="acknowledgements">
+      <h1 id="ack__header">Acknowledgements</h1>
+      <ul>
+        <li>https://www.w3schools.com/jsref/event_onclick.asp</li>
+        <li>https://contactmentor.com/js-increment-counter-button-click/</li>
+      </ul>
+    </div>
+    <script src="./button.js"></script>
+  </body>
 </html>
